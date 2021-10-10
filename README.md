@@ -1,6 +1,8 @@
 # DocBot
 A Discord bot to assist developers in quickly sourcing and linking relevant programming documentation.
 
+Built with .NET Core 3.1 and Docker.
+
 ---
 
 Want to invite DocBot to your own Discord?
