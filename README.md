@@ -21,3 +21,13 @@ Want to pull the latest Docker image to host your own instance of DocBot?
 | `docbot konami` | Displays the Konami code as emojis |
 | `docbot docs` | Lists helpful documentation links |
 | `docbot search "your query"` | Searches Google's API for the input query and posts the top result to chat |
+
+---
+
+## Screenshots
+
+![image](/Documentation/Images/user.png)
+
+![image](/Documentation/Images/help.png)
+
+![image](/Documentation/Images/search.png)
