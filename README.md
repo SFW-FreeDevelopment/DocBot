@@ -1,6 +1,12 @@
 # DocBot
 A Discord bot to assist developers in quickly sourcing and linking relevant programming documentation.
 
+---
+
+Want to invite DocBot to your own Discord?
+
+[https://discord.com/oauth2/authorize?client_id=896549111233392700&scope=bot&permissions=534723951680](https://discord.com/oauth2/authorize?client_id=896549111233392700&scope=bot&permissions=534723951680)
+
 ## Commands
 | Command | Description |
 | ------------- | ------------- |
