@@ -10,7 +10,8 @@ Want to invite DocBot to your own Discord?
 ## Commands
 | Command | Description |
 | ------------- | ------------- |
-| `!help` | Assists the user by displaying all commands |
-| `!ping` | Pings the Discord channel |
-| `!konami` | Displays the Konami code as emojis |
-| `!search "your query"` | Searches Google's API for the input query and posts the top result to chat |
+| `docbot help` | Assists the user by displaying all commands |
+| `docbot ping` | Pings the Discord channel |
+| `docbot konami` | Displays the Konami code as emojis |
+| `docbot docs` | Lists helpful documentation links |
+| `docbot search "your query"` | Searches Google's API for the input query and posts the top result to chat |
