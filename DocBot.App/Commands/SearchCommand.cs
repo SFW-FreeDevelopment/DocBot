@@ -34,14 +34,13 @@ namespace DocBot.App.Commands
                 return;
             }
 
-            Hashtable ht = new Hashtable
+            var parameters = new Hashtable
             {
                 { "q", topic },
                 { "hl", "en" },
                 { "google_domain", "google.com" }
             };
-            // TODO: Search Google
-            var search = new GoogleSearch(ht, "dd89ccfbd61519dc8f7d3d1022ff0afa0facdc9afc18c285447bdee311843eeb");
+            var search = new GoogleSearch(parameters, "dd89ccfbd61519dc8f7d3d1022ff0afa0facdc9afc18c285447bdee311843eeb");
             var data = search.GetJson();
             var results = (JArray)data["organic_results"];
 
