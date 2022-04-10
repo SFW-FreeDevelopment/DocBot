@@ -20,10 +20,10 @@ namespace DocBot.App.Commands
             }
             
             var isExplicit = false;
-            if (Program.BadWords?.Any() ?? false)
+            if (Constants.BadWords?.Any() ?? false)
             {
                 var lowerTopic = topic.ToLower();
-                if (Program.BadWords.Any(word => lowerTopic.Contains(word)))
+                if (Constants.BadWords.Any(word => lowerTopic.Contains(word)))
                 {
                     isExplicit = true;
                 }
