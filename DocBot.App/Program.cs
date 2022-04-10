@@ -23,7 +23,6 @@ namespace DocBot.App
             }
 
             RunBotAsync().GetAwaiter().GetResult();
-            Console.WriteLine("Hello World!");
             Console.ReadKey();
         }
 
@@ -75,6 +74,18 @@ namespace DocBot.App
 
             int argPos = 0;
             if (message.HasStringPrefix("docbot ", ref argPos))
+            {
+                await Execute();
+                return;
+            }
+            argPos = 0;
+            if (message.HasStringPrefix("<@896549111233392700> ", ref argPos))
+            {
+                await Execute();
+                return;
+            }
+
+            async Task Execute()
             {
                 var result = await _commands.ExecuteAsync(context, argPos, _services);
                 if (!result.IsSuccess)
